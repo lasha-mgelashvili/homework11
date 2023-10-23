@@ -19,6 +19,12 @@
     .section {
         margin-top: 400px;
     }
+    .burger-bar {
+        display: none;
+    }
+    .nav-div {
+        width: 95%;
+    }
 }
 @media (max-width: 1024px) {
     .footer-logo-div {
@@ -30,5 +36,52 @@
     .last-box {
         height: 150px;
         background-color: #37393F;
+    }
+}
+@media (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+    .botton-div {
+        display: none;
+    }
+    .burger-bar {
+        display: flex;
+        cursor: pointer;
+    }
+    .burger-div {
+        max-width: 767px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo1 {
+        display: flex;
+    }
+    .for-input {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .input-div {
+        margin: 0 auto;
+    }
+    .input-div {
+        margin-bottom: 15px;
+        justify-content: center;
+
+    }
+    .zoom {
+        width: 767px;
+    }
+    .last-box {
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 895px) {
+    .footer-box {
+        margin: 0 auto;
+        margin-top: 20px;
     }
 }

@@ -75,6 +75,14 @@
 	color: #FFFFFF;
 	height: 26.31px;
 }
+.burger-bar {
+	max-width: 767px;
+	width: 100%;
+	display: none;
+}
+.burger-div {
+	display: none;
+}
 /* section styles */
 
 .mother-box {
@@ -123,10 +131,14 @@
 }
 .small-mom {
 	max-width: 282px;
-	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 30px;
+}
+.one-more {
+	max-width: 367px;
+    width: 100;
+
 }
 .contact-info {
 	font-family: 'Poppins', sans-serif;
@@ -285,9 +297,6 @@
 /* footer second part */
 .footer-ul {
     height: 200px;
-}
-.list-div {
-
 }
 .footer-li {
 	color: #FFFFFF;
